@@ -1,0 +1,32 @@
+{
+    "name": "dayone-csv-exporter",
+    "description": "A PHP script to convert Day One journal CSV exports into individual text files with metadata",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Day One CSV Exporter",
+            "email": "your-email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": ["export-cli.php"]
+    },
+    "keywords": [
+        "day-one",
+        "journal",
+        "csv",
+        "export",
+        "converter",
+        "php"
+    ],
+    "homepage": "https://github.com/uschmelzer/dayone-csv-exporter",
+    "support": {
+        "issues": "https://github.com/uschmelzer/dayone-csv-exporter/issues",
+        "source": "https://github.com/uschmelzer/dayone-csv-exporter"
+    },
+    "minimum-stability": "stable"
+} 
